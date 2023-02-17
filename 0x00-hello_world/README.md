@@ -6,3 +6,4 @@
 4-puts.c
 6-size.c
 5-printf.c
+100-intel
