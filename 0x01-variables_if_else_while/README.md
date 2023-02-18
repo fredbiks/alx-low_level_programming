@@ -1,3 +1,4 @@
 0x01-variables_if_else_while
 0-positive_or_negative.c
 4-print_alphabt.c
+6-print_numberz.c
