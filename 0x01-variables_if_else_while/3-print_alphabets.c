@@ -21,7 +21,7 @@ letter = 'A';
 
 /* Print uppercase alphabet */
 while (letter <= 'Z')
-    {
+{
 putchar(letter);
 letter++;
 }
