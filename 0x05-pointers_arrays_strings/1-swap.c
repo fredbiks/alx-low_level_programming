@@ -1,23 +1,19 @@
 #include "main.h"
-#include <stdio.h>
 
-int main(void)
+/**
+ * swap_int - swaps the values of two integers
+ *
+ * @a: pointer to an integer
+ * @b: pointer to an integer
+ *
+ * Return: void
+ */
+void swap_int(int *a, int *b)
 {
-char *s = "hello";
-int len = _strlen(s);
-printf("The length of '%s' is %d\n", s, len);
-return 0;
-}
+int temp;
 
-int _strlen(char *s)
-{
-int len = 0;
-
-while (*s != '\0')
-{
-len++;
-s++;
-}
-return len;
+temp = *a;
+*a = *b;
+*b = temp;
 }
 
