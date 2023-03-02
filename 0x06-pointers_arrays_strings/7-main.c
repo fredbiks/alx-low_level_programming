@@ -1,24 +1,19 @@
 #include <stdio.h>
+#include "main.h"
 
-/* function prototype */
-char *leet(char *);
-
-/* main function */
+/**
+ * main - Entry point
+ *
+ * Return: Always 0
+ */
 int main(void)
 {
-char str[] = "leet";
-char *result;
+char s[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\n";
+char *p;
 
-result = leet(str);
-
-printf("%s\n", result);
-
-return 0;
-}
-
-/* implementation of the leet function */
-char *leet(char *str)
-{
-/* ... */
+p = leet(s);
+printf("%s", p);
+printf("%s", s);
+return (0);
 }
 
