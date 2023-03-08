@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_chessboard - prints the chessboard.
  * @a: 2D array of chars representing the chessboard.
@@ -15,7 +17,7 @@ for (j = 0; j < 8; j++)
 _putchar(a[i][j]);
 if (j == 7)
 {
-putchar('\n');
+_putchar('\n');
 }
 }
 }
