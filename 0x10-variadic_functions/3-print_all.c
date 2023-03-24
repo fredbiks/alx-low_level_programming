@@ -1,9 +1,19 @@
 #include "variadic_functions.h"
 #include <stdio.h>
+#include <stdarg.h>
 
 /**
- * print_all - prints all
- * @format: format string to specify the arguments to be printed
+ * print_all - Prints anything.
+ *
+ * @format: A string of characters representing the argument types.
+ *          c: char
+ *          i: integer
+ *          f: float
+ *          s: char * (if the string is NULL, print (nil) instead).
+ *          any other char should be ignored.
+ * @...: A variable number of arguments to be printed.
+ *
+ * Return: Nothing.
  */
 
 void print_all(const char * const format, ...)
