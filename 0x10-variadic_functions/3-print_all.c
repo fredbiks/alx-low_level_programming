@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 /**
- * ;print_all - prints all 
+ * print_all - prints all
+ * @format: format string to specify the arguments to be printed
  */
 
 void print_all(const char * const format, ...)
